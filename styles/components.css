@@ -1,0 +1,101 @@
+.btn {
+  background-color: var(--brand-color);
+  height: 50px;
+  width: 160px;
+  margin: 5px;
+  color: #FFFFFF;
+  font-size: .75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  font-size: .75rem;
+  opacity: 1;
+  border: 2px solid var(--brand-color);
+  border-radius: 1.75rem;
+}
+
+.btn--outlined {
+  background-color: transparent;
+  color: #6200EA;
+}
+
+.btn--outlined-inverse {
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.btn--narrow {
+  height: 40px;
+}
+
+
+
+
+
+.input, .textarea {
+  width: 350px;
+  height: 50px;
+  background-color: #F4F3F5;
+  border: none;
+  padding: 16px 24px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.input::placeholder, .textarea::placeholder {
+  color: #B2ACBA;
+  font-weight: bold;
+}
+
+
+.input--active {
+  border-bottom: 3px solid var(--brand-color);
+  padding-bottom: 13px;
+}
+
+.input--active::placeholder {
+  color: #211138;
+}
+ 
+.textarea {
+  height: 110px;
+  resize: none;
+}
+
+.icon {
+  background-color: var(--brand-color);
+  color: #FFFFFF;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 20;
+  padding: 13px 0;
+  border: 2px solid var(--brand-color);
+  margin: 0 20px 20px 0;
+}
+
+.icon--outlined {
+  background-color: transparent;
+  color: var(--brand-color);
+}
+
+.icon--small {
+  height: 40px;
+  width: 40px;
+  padding: 9px 0;
+  font-size: 
+}
+
+.icon--inverse {
+  background-color: #FFFFFF;
+  color: var(--brand-color);
+  border: 2px solid #FFFFFF;
+}
+
+.icon--outlined-inverse {
+  color: #FFFFFF;
+  border: 2px solid;
+}
