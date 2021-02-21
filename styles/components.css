@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #BUTTONS
+\*------------------------------------*/
+
 .btn {
   background-color: var(--brand-color);
   height: 50px;
@@ -12,6 +16,7 @@
   opacity: 1;
   border: 2px solid var(--brand-color);
   border-radius: 1.75rem;
+  cursor: pointer;
 }
 
 .btn--outlined {
@@ -29,9 +34,23 @@
   height: 40px;
 }
 
+.btn--bottom {
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFFF;
+  color: var(--grey);
+  border: 0;
+  border-radius: 0 0 15px 15px;
+}
 
 
 
+
+
+/*------------------------------------*\
+  #INPUTS
+\*------------------------------------*/
 
 .input, .textarea {
   width: 350px;
@@ -63,6 +82,14 @@
   resize: none;
 }
 
+
+
+
+
+/*------------------------------------*\
+  #ICONS
+\*------------------------------------*/
+
 .icon {
   background-color: var(--brand-color);
   color: #FFFFFF;
@@ -75,6 +102,7 @@
   padding: 13px 0;
   border: 2px solid var(--brand-color);
   margin: 0 20px 20px 0;
+  cursor: pointer;
 }
 
 .icon--outlined {
@@ -98,4 +126,130 @@
 .icon--outlined-inverse {
   color: #FFFFFF;
   border: 2px solid;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN-CONTENT
+\*------------------------------------*/
+
+.section-main-content {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 60px 60px 50px;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #CATEGORY-BOX
+\*------------------------------------*/
+
+.category-box {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.img-placeholder {
+  background-color: #6200EA;
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.category-box-details {
+  flex: 1;
+}
+
+.category-box-text {
+  margin: 15px 20px 20px 0;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #SIDEBAR-CARD
+\*------------------------------------*/
+
+.sidebar-card-title {
+  background-color: var(--brand-color);
+  height: 60px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-card-content {
+  background-color: #FFFFFF;
+  height: 170%;
+  border-bottom: 1px solid #F4F3F5;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #CHAT
+\*------------------------------------*/
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 40px 10px 0 10px;
+}
+
+ .chat-flex {
+  display: flex;
+}
+
+.chat-flex-own {
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.chat-content {
+  flex: 1;
+}
+
+.chat-addressing {
+  font-family: Montserrat;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  color: var(--grey);
+  margin: 20px 0 5px 0;
+}
+
+.chat-message {
+  background-color: #FFFFFF;
+  padding: 20px;
+  font-family: Montserrat;
+  border-radius: 0 15px 15px 15px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.chat-massage-own {
+  background-color: var(--grey);
+  border-radius: 20px 20px 0 20px;
+  text-align: left;
 }
