@@ -32,11 +32,10 @@ header {
 
 footer {
   background-color: #211138;
-  height: 6.25rem;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 60px;
   font-family: Montserrat;
   font-weight: bold;
   font-size: 12px;
@@ -45,41 +44,39 @@ footer {
   color: var(--grey);
 }
 
+/* .page-container and page-content sticks the footer
+to the bottom of the page when there is no enough content for it*/
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+}
 
 a {
   color: var(--brand-color);
   cursor: pointer;
 }
 
-h1 {
+h1, h2, h3, h4 {
   font-family: Montserrat;
-  font-size: 50px;
   font-weight: bold;
   color: var(--dkpurple);
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
-h2 {
-  font-family: Montserrat;
-  font-size: 40px;
-  font-weight: bold;
-  color: var(--dkpurple);
-  margin-bottom: 20px;
-}
-
-h3 {
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: bold;
-  color: var(--dkpurple);
-  margin-bottom: 20px;
-}
+h1 { font-size: 50px; }
+h2 { font-size: 40px; }
+h3 { font-size: 30px; }
 
 h4 {
-  font-family: Montserrat;
   font-size: 12px;
   text-transform: uppercase;
-  font-weight: bold;
   letter-spacing: 2.4px;
   color: var(--brand-color);
   margin: 20px 20px 15px 0;
@@ -116,3 +113,8 @@ h5 {
   color: var(--dkpurple);
   margin-bottom: 20px;
 }
+
+.inverse {
+  color: #FFFFFF;
+}
+

@@ -19,6 +19,12 @@
   cursor: pointer;
 }
 
+.btn--inverse {
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  color: var(--brand-color);
+}
+
 .btn--outlined {
   background-color: transparent;
   color: #6200EA;
@@ -44,6 +50,41 @@
   border-radius: 0 0 15px 15px;
 }
 
+
+
+
+
+/*------------------------------------*\
+  #NAVIGATION
+\*------------------------------------*/
+
+.navigation {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.navigation-pages {
+  text-align: center;
+  height: 80px;
+}
+
+.navigation-pages > li {
+  display: inline-block;
+  font-size: 12px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  color: var(--dkpurple);
+  padding: 33px 0 32px;
+  margin: 0 35px 0;
+  cursor: pointer;
+}
+
+li.navigation-pages-active {
+  border-bottom: 4px solid var(--brand-color);
+  color: var(--brand-color);
+}
 
 
 
@@ -136,11 +177,26 @@
   #MAIN-CONTENT
 \*------------------------------------*/
 
-.section-main-content {
+.main-content {
   background-color: #FFFFFF;
   border-radius: 15px;
   padding: 60px 60px 50px;
 }
+
+.featured-blog-post {
+  background-image: url('../assets/blog/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.img-content {
+  background-image: url(../assets/blog/sean-o-KMn4VEeEPR8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 730px 320px;
+  padding-top: 380px;
+}
+
+
 
 
 
@@ -154,7 +210,7 @@
   background-color: #FFFFFF;
   border-radius: 15px;
   display: flex;
-  margin-bottom: 20px;
+/*  margin-bottom: 20px; */
 }
 
 .img-placeholder {
@@ -173,7 +229,14 @@
   margin: 15px 20px 20px 0;
 }
 
-
+.category-img {
+  object-fit: cover;
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
 
 
 
@@ -195,11 +258,24 @@
 
 .sidebar-card-content {
   background-color: #FFFFFF;
-  height: 170%;
   border-bottom: 1px solid #F4F3F5;
 }
 
+.sidebar-card-placeholder {
+  height: 170%;
+}
 
+.category-labels > li {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  color: var(--dkpurple);
+  padding: 17px 30px 18px;
+  border-bottom: 1px solid #F4F3F5;
+  cursor: pointer;
+}
 
 
 
