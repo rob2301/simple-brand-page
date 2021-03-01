@@ -1,0 +1,31 @@
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.header-wraper {
+  width: 1110px;
+  height: 100%;
+  margin: auto;
+  display: table;
+}
+
+
+.center-wraper {
+  height: calc(100vh - 180px);
+  display: flex;
+  align-items: center;
+}
+
+
+
+/*------------------------------------*\
+  #GRID-WRAPER
+\*------------------------------------*/
+
+.grid-wraper {
+  display: grid;
+  margin: 30px auto;
+  width: 1110px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}

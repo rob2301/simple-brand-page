@@ -69,7 +69,7 @@
 }
 
 .navigation-pages > li {
-  display: inline-block;
+  display: inline;
   font-size: 12px;
   font-family: Montserrat;
   text-transform: uppercase;
@@ -85,6 +85,7 @@ li.navigation-pages-active {
   border-bottom: 4px solid var(--brand-color);
   color: var(--brand-color);
 }
+
 
 
 
