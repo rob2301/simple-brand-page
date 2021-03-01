@@ -40,6 +40,10 @@
   height: 40px;
 }
 
+.btn-wide {
+  width: 100%;
+}
+
 .btn--bottom {
   height: 60px;
   width: 100%;
@@ -95,13 +99,17 @@
 \*------------------------------------*/
 
 .input, .textarea {
-  width: 350px;
+  display: block;
+  width: 100%;
   height: 50px;
   background-color: #F4F3F5;
   border: none;
   padding: 16px 24px;
   margin-bottom: 20px;
   font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  color: #211138;
 }
 
 .input::placeholder, .textarea::placeholder {
@@ -109,16 +117,11 @@
   font-weight: bold;
 }
 
-
-.input--active {
+.input:focus, .textarea:focus {
   border-bottom: 3px solid var(--brand-color);
   padding-bottom: 13px;
 }
 
-.input--active::placeholder {
-  color: #211138;
-}
- 
 .textarea {
   height: 110px;
   resize: none;
@@ -329,4 +332,28 @@
   background-color: var(--grey);
   border-radius: 20px 20px 0 20px;
   text-align: left;
+}
+
+/*------------------------------------*\
+  #SIGNUP-PAGE
+\*------------------------------------*/
+
+.advice-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 30px;
+  height: 360px;
+  width: 540px;
+}
+
+.advice-list > div {
+  padding-left: 60px;
+}
+
+.right-text-align {
+  text-align: right;
+  margin: -10px 0 30px 0;
 }
