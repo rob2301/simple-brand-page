@@ -1,6 +1,6 @@
 # simple-brand-page
 
-Index / Blog page:
+Blog page:
 https://rob230191.github.io/simple-brand-page/
 
 Contact page:
