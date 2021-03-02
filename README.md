@@ -1,5 +1,8 @@
 # simple-brand-page
 
+This pages are made to practise HTML and CSS.
+From codeberryschool.com
+
 Blog page:
 https://rob230191.github.io/simple-brand-page/
 
