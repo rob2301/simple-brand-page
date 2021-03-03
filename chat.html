@@ -18,80 +18,136 @@
     <div class="partners-list">
       
       <div class="search">
-        <form class="search-form">
           <input class="input" type="text" placeholder="Search">
           <button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
-        </form>
       </div>
       
-      <div class="partner">
-        <img class="avatar" src="assets/chat/user_avatar_01.png">
+      <div class="partner partner-highlight">
+        <img class="partner-img" src="assets/chat/user_avatar_01.png">
         <div>
           <div class="chat-name">Amy Adams</div>
-          <p class="chat-message">Lorem ipsum dolor sit amet, consetetur</p>
+          <p class="chat-message-preview">Lorem ipsum dolor sit amet, consetetur</p>
         </div>
       </div>
       
      <div class="partner">
-        <img class="avatar" src="assets/chat/user_avatar_02.png">
+        <img class="partner-img" src="assets/chat/user_avatar_02.png">
         <div>
           <div class="chat-name">Marc</div>
-          <p class="chat-message">Sed diam nonumy eirmod tempor invidunt</p>
+          <p class="chat-message-preview">Sed diam nonumy eirmod tempor invidunt</p>
         </div>
       </div>
       
       <div class="partner">
-        <img class="avatar" src="assets/chat/user_avatar_03.png">
+        <img class="partner-img" src="assets/chat/user_avatar_03.png">
         <div>
           <div class="chat-name">Jacob</div>
-          <p class="chat-message"></p>
+          <p class="chat-message-preview"></p>
         </div>
       </div>
       
       <div class="partner">
-        <img class="avatar" src="assets/chat/user_avatar_04.png">
+        <img class="partner-img" src="assets/chat/user_avatar_04.png">
         <div>
           <div class="chat-name">Chris Smith</div>
-          <p class="chat-message">At vero eos et accusam et justo duo dolores</p>
+          <p class="chat-message-preview">At vero eos et accusam et justo duo dolores</p>
         </div>
       </div>
       
       <div class="partner">
-        <img class="avatar" src="assets/chat/user_avatar_05.png">
+        <img class="partner-img" src="assets/chat/user_avatar_05.png">
         <div>
           <div class="chat-name">Mia Wong</div>
-          <p class="chat-message">Stet clita kasd gubergren.</p>
+          <p class="chat-message-preview">Stet clita kasd gubergren.</p>
         </div>
       </div>
       
       <div class="partner">
-        <img class="avatar" src="assets/chat/user_avatar_06.png">
+        <img class="partner-img" src="assets/chat/user_avatar_06.png">
         <div>
           <div class="chat-name">Jane</div>
-          <p class="chat-message">Lorem ipsum dolor sit amet, consetetur</p>
+          <p class="chat-message-preview">Lorem ipsum dolor sit amet, consetetur</p>
         </div>
+      </div>
+      
+      <div class="add-partner">
+        <button class="btn btn--outlined btn-wide">Add new contact</button>
       </div>
       
     </div>
     
-    <div>
       <header>
         <div class="header-wraper">
           <div class="active-partner-name">Amy Adams</div>
           <img class="logo" src="assets/logo_50.svg">
           <div class="my-profile">
             <div class="profile-name">Student Name</div>
-            <img class="avatar" src="assets/chat/user_avatar_07.png">
+            <img class="my-avatar" src="assets/chat/user_avatar_07.png">
           </div>
         </div>
       </header>
-    </div>
-  
-  
-  
-  </div>
+    
+      <div class="chat-area">
+      
+       <div class="chat-wraper">
+        <div class="chat-flex">
+          <img class="avatar" src="assets/chat/user_avatar_01.png">
+          <div class="chat-content">
+            <div class="chat-addressing">Amy, 11:37</div>
+            <p class="chat-message">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+            <div></div>
+            <p class="chat-message chat-massage-continuing">At vero eos et accusam et justo duo dolores et ea rebum.</p>
+          </div>
+        </div>
 
-  
+        <div class="chat-flex chat-flex-own">
+          <img class="avatar" src="assets/chat/user_avatar_07.png">
+          <div class="chat-content">
+            <div class="chat-addressing">11:40</div>
+            <p class="chat-message chat-massage-own">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+          </div>
+        </div>
+         
+        <div class="chat-flex">
+          <img class="avatar" src="assets/chat/user_avatar_01.png">
+          <div class="chat-content">
+            <div class="chat-addressing">Amy, 12:04</div>
+            <p class="chat-message">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+          </div>
+        </div>
+         
+        <div class="chat-flex chat-flex-own">
+          <img class="avatar" src="assets/chat/user_avatar_07.png">
+          <div class="chat-content">
+            <div class="chat-addressing">12:06</div>
+            <p class="chat-message chat-massage-own">At vero eos et accusam et justo duo dolores et ea rebum.</p>
+            <div></div>
+            <p class="chat-message chat-massage-own chat-massage-continuing">Stet clita kasd gubergren.</p>
+          </div>
+        </div>
+         
+         <div class="chat-flex">
+          <div class="chat-content">
+            <div class="chat-addressing typing">Amy is typing...</div>
+          </div>
+        </div>
+         
+      </div>
+      
+      <div class="chat-text-area">
+        <div class="chat-flex chat-flex-send">
+          <div class="message-textarea-wraper">
+            <textarea class="textarea message-textarea" rows="4" placeholder="Type your message ..."></textarea>
+            <button class="attach-icon" type="button"><i class="fas fa-paperclip"></i></button>
+            <button class="smiley-icon" type="button"><i class="far fa-smile"></i></button>
+          </div>
+          <i class="fas fa-paper-plane icon send-icon"></i>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
   
 </body>
 
